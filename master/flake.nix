@@ -11,6 +11,7 @@
   inputs.src-numToWord-master.ref   = "refs/heads/master";
   inputs.src-numToWord-master.owner = "thisago";
   inputs.src-numToWord-master.repo  = "numToWord";
+  inputs.src-numToWord-master.dir   = "";
   inputs.src-numToWord-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
